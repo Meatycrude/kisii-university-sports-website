@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kisii University Sports - Register</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Alice&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="../images/ksu-logo.png"
+          alt="Kisii University Logo"
+          class="logo"
+        />
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="facilities.html">Facilities</a></li>
+          <li><a href="register.html">Join Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-content garamond-section">
+        <h1 class="alice-title">Become a Member</h1>
+        <p>
+          Fill out the form below to register for our sports programs. We'll
+          contact you soon!
+        </p>
+        <form id="registerForm">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+
+          <label for="sport">Preferred Sport:</label>
+          <select id="sport" required>
+            <option value="">Select One</option>
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="rugby">Rugby</option>
+            <option value="athletics">Athletics</option>
+            <option value="volleyball">Volleyball</option>
+          </select>
+
+          <label for="experience">Experience Level:</label>
+          <select id="experience" required>
+            <option value="">Select One</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+
+          <button type="submit">Submit Registration</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="garamond-section">
+      <p>
+        &copy; 2025 Kisii University Sports. All rights reserved. | Contact:
+        sports@kisiiuniversity.ac.ke
+      </p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
