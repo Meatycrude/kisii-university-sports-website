@@ -9,7 +9,7 @@ function nextSlide() {
 }
 
 if (slides.length > 0) {
-  setInterval(nextSlide, 3000); // Change slide every 3 seconds
+  setInterval(nextSlide, 5000); // Change slide every 3 seconds
 }
 
 // Form Validation and Submission
